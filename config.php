@@ -2,11 +2,11 @@
 
 $hosh = "localhost";
 $username = "root";
-$pasword = "131410003";
+$password = "131410003";
 $database = "crudmagelang";
 
 $mysqli = mysqli_connect(
                         $hosh, 
                         $username, 
-                        $pasword, 
+                        $password, 
                         $database) or die('Not connected to sql');
